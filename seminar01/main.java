@@ -1,7 +1,7 @@
 package seminar01;
 
 public class main {
-    public static void main(String[] args) {
+    public static void mainprogram(String[] args) {
 
                 hotdrink cocoalarge = new cocoa("Big Cococa with Marshmallows", 300, 400, 50);
                 hotdrink espresso = new coffee("Espresso", 150, 30, 80);
