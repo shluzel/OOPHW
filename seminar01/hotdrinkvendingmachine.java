@@ -14,7 +14,6 @@ public class hotdrinkvendingmachine implements vendingmachine {
     public void addproduct(product product) {
         list.add((hotdrink) product);
     }
-
     public product getproduct(String name) {
         for (product product : list) {
             if (name.equals(product.getname())){

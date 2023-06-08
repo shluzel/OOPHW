@@ -12,11 +12,11 @@ public abstract class hotdrink extends product {
     }
 
     public String toString() {
-        return "Горячий напиток " + getname() +
-                ",температура:" + gettemp() +
-                " °C, объем:" + getvolume() +
-                " мл, стоимость:" + getprice() +
-                "рублей" +
+        return "Горячий напиток - " + getname() +
+                ", температура: " + gettemp() +
+                " °C, объем: " + getvolume() +
+                " мл, стоимость: " + getprice() +
+                " рублей" +
                 '}';
     }
 
