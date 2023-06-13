@@ -9,17 +9,17 @@ public class calculations {
     public calculations() {
     }
 
-    public operation getсurrent() {
+    public operation getсurrent() { 
         return currentoperation;
     }
 
-    private void setcurrent(operation currentoperation) {
+    private void setcurrent(operation currentoperation) { //setting operation
         this.currentoperation = currentoperation;
     }
 
     public void selectoperation(Scanner scan) {
         System.out.print("Введите символ: ");
-        switch (scan.next().charAt(0)) {
+        switch (scan.next().charAt(0)) { //user chooses operation or programm keeps asking for right symbol
             case '+':
                 this.setcurrent(new sum());
                 break;
