@@ -5,7 +5,7 @@ public abstract class hotdrink extends product {
     private int volume;
     private int temp;
 
-    public hotdrink(String name, double price, int volume, int temp) {
+    public hotdrink(String name, long price, int volume, int temp) {
         super(name, price);
         this.volume = volume;
         this.temp = temp;

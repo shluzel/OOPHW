@@ -3,9 +3,9 @@ package seminar01;
 public abstract class product {
 
     private String name;
-    private double price;
+    private long price;
 
-    public product(String name, double price) {
+    public product(String name, long price) {
         this.name = name;
         this.price = price;
     }
@@ -15,10 +15,10 @@ public abstract class product {
     public void setname(String name) {
         this.name = name;
     }
-    public double getprice() {
+    public long getprice() {
         return price;
     }
-    public void setprice(double price) {
+    public void setprice(long price) {
         this.price = price;
     }
 }

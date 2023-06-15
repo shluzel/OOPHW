@@ -11,7 +11,7 @@ public abstract class operation implements calc{
     float getfirstnum() {
         return firstnum;
     }
-    //body for our operations
+    
     public void setfirstnum(Scanner scan) {
         System.out.println("Введите первое число: ");
         this.firstnum = scan.nextFloat();
