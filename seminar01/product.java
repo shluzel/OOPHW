@@ -21,4 +21,8 @@ public abstract class product {
     public void setprice(long price) {
         this.price = price;
     }
+
+    public int compareto(long price) {
+        return Long.valueOf(this.getprice()).compareTo(Long.valueOf(price));
+    }
 }
