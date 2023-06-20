@@ -6,7 +6,7 @@ public class main {
                 hotdrink cocoalarge = new cocoa("Big Cococa with Marshmallows", 300, 400, 50);
                 hotdrink espresso = new coffee("Espresso", 150, 30, 80);
                 hotdrink sweettea = new tea("Black Sweet Tea with Milk", 200, 250, 60);
-                comparable compare = new comparable();
+        
                 vendingmachine hotdrinkvending = new hotdrinkvendingmachine();
         
                 hotdrinkvending.addproduct(cocoalarge);
@@ -15,6 +15,6 @@ public class main {
         
                 System.out.println(hotdrinkvending.getproduct("Espresso"));
                 System.out.println(hotdrinkvending.getproduct("Black Sweet Tea with Milk", 250, 60));
-                System.out.println(compare(cocoalarge,espresso));
+    
             }
 }

@@ -32,4 +32,6 @@ public abstract class hotdrink extends product {
     public void settemp(int temp) {
         this.temp = temp;
     }
+
+
 }
