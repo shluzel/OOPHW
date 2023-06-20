@@ -12,7 +12,7 @@ import seminar04.task.teacherview;
 
 public class main {
     public static void main(String[] args) {
-        
+
         studentview studentview = getstudentview();
         teacherview teacherview = getteacherview();
 
@@ -23,7 +23,7 @@ public class main {
         studentview.create("Иван Иванов", 14, "+7928349176");
         studentview.create("Анатолий Анатольев", 13, "+793467273");
 
-        studentview.sendOnConsole(SortType.AGE);
+        studentview.sendOnConsole(sorttype.AGE);
 
         teacherview.create("Евгений Архимедов", 40, "+79345235");
         teacherview.create("Леонид Гауссов", 42, "+79123746");
@@ -32,7 +32,7 @@ public class main {
         teacherview.create("Милана Декартова", 34, "+7934728562");
         teacherview.create("Софья Нейманова", 40, "+793756425");
 
-        teacherview.sendOnConsole(SortType.ID);
+        teacherview.sendOnConsole(sorttype.ID);
 
     }
 

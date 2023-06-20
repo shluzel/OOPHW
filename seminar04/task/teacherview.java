@@ -16,11 +16,11 @@ public class teacherview implements userview<teacher> {
     public void sendOnConsole(String sortType) {
         int separatorLength = 32;
         List<teacher> groupteachers = switch (sortType) {
-            case SortType.NONE -> controller.getAll();
-            case SortType.ID -> controller.getAllUsersSortedById();
-            case SortType.FIRSTNAME -> controller.getAllUsersSortedByFirstName();
-            case SortType.LASTNAME -> controller.getAllUsersSortedByLastName();
-            case SortType.AGE -> controller.getAllUsersSortedByAge();
+            case sorttype.NONE -> controller.getAll();
+            case sorttype.ID -> controller.getAllUsersSortedById();
+            case sorttype.FIRSTNAME -> controller.getAllUsersSortedByFirstName();
+            case sorttype.LASTNAME -> controller.getAllUsersSortedByLastName();
+            case sorttype.AGE -> controller.getAllUsersSortedByAge();
             default -> null;
         };
         if (groupteachers == null) {

@@ -9,9 +9,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class teacherservice implements UserService<teacher> {
+public class teacherservice implements userservice<teacher> {
 
-    private final Users<teacher> teachers;
+    private final users<teacher> teachers;
 
     public teacherservice(teachers teachers) {
         this.teachers = teachers;
@@ -25,7 +25,7 @@ public class teacherservice implements UserService<teacher> {
             }
         }
         Long id = teachers.getMaxId() + 1;
-        teacher teacher = new Teacher(id, fullName, age, phone);
+        teacher teacher = new teacher(id, fullName, age, phone);
         teachers.add(teacher);
     }
 

@@ -33,7 +33,7 @@ public class studentservice implements userservice<student> {
     }
 
 
-    public List<Student> getAllUsersSortedByFirstName() {
+    public List<student> getAllUsersSortedByFirstName() {
         List<student> groupstudents = students.getAll();
         Collections.sort(groupstudents);
 
