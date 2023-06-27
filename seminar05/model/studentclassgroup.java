@@ -2,7 +2,7 @@ package seminar05.model;
 
 import lombok.Getter;
 import lombok.ToString;
-import seminar05.service.studentclassgroupiterator;
+import seminar05.service.iterator.studentclassgroupiterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

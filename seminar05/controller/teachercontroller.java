@@ -1,8 +1,8 @@
 package seminar05.controller;
 
 import seminar05.model.teacher;
-import seminar05.service.teacherservice;
-import seminar05.service.userservice;
+import seminar05.service.user.teacherservice;
+import seminar05.service.user.userservice;
 
 import java.util.List;
 

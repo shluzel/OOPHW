@@ -1,4 +1,4 @@
-package seminar05.service;
+package seminar05.service.comparator;
 
 import seminar05.model.group;
 

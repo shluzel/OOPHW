@@ -1,9 +1,10 @@
-package seminar05.service;
+package seminar05.service.user;
 
 import seminar05.model.teacher;
 import seminar05.model.user;
 import seminar05.rep.teachers;
 import seminar05.rep.users;
+import seminar05.service.comparator.usercomparator;
 
 import java.util.Collections;
 import java.util.Comparator;

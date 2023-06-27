@@ -1,4 +1,4 @@
-package seminar05.service;
+package seminar05.service.user;
 
 import seminar05.model.user;
 

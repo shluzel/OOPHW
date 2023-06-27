@@ -6,6 +6,6 @@ public interface sorttype {
     String FIRSTNAME = "first_name";
     String LASTNAME = "last_name";
     String AGE = "age";
-    String TEAM_ID = "team_id";
-    String TEAM_NAME = "team_name";
+    String TEAM_ID = "group_id";
+    String TEAM_NAME = "group_name";
 }
